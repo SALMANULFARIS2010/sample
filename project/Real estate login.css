@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/premium_photo-1661883964999-c1bcb57a7357.avif'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* You can adjust the opacity of the background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    max-width: 300px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #d40909;
+    color: rgb(13, 1, 1);
+    text-align: center;
+    cursor: pointer;
+}

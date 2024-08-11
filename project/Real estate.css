@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+/*   
+ selector : element selector,class selector,id selector
+*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+    f
+}
+header{
+    width:100%;
+    background-color: rgb(277, 228, 277);
+    height:700px;
+    padding-top:60px;
+    background-image: url('images/sean-pollock-PhYq704ffdA-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+nav{
+    width: 90%;
+    height: 150px;
+    margin-left:auto;
+    margin-right:auto;
+ 
+    /*background-color:rgba(225,223,0,.3);*/
+    background-color:rgb(74, 71, 74);
+    border-radius:100px 122px 150px 165px;
+    box-shadow: -24px 18px 34px;
+    background:transparent;
+    display:flex;
+      
+}
+
+.logo{
+    width:25%;
+    padding:5px;
+
+}
+.logo img{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+}
+
+.logo span{
+    font-size: 40px;
+    font-family: 'Protest Riot', sans-serif;
+    color: rgb(8, 11, 0);
+    position:relative;
+    bottom: 0;
+    left: 30px;
+    top: -25px;
+    text-shadow: 10px 4px 10px black;
+}
+.navs{
+    width:55%;
+    display: flex;
+    gap:25px;
+    justify-content:right;
+    padding-top:30px;
+}
+.navitem{
+    list-style:none;
+    height:100px;
+    transform:matrix3d();
+  transition:all 2s ease-in-out;
+
+  
+}
+.navitem a{
+    color:rgba(10, 3, 0, 0.911);
+    text-decoration: none;
+    font-size: 25px;
+   
+}
+.navitem:hover{
+
+}
+footer{
+    width:150;
+    height: 100px;
+    background-color:lightblue;
+    margin-left:auto;
+    text-align: center;
+    
+}

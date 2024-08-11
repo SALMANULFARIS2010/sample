@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.shape{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    border-radius: 50% 1px 50% 1px;
+
+}
+.shape1{
+    
+    background-color: blueviolet;
+    z-index: 99px;
+    transform: rotate(-20deg);
+
+
+    
+}
+.shape2{
+    
+    background-color: rgb(194, 8, 176);
+    top: -100px;
+    z-index: 9999;
+    transform: rotate(20deg);
+
+    
+
+}
+
+.shape3{
+   
+    background-color: rgb(108, 22, 7);
+    top:-199px;
+    z-index: 9999;
+    transform: rotate(90deg);
+}
+.wrapper{
+    width: 85%;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   
+   padding: 10px;
+   gap: 3px;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:space-around;
+   border-radius: 40px;
+}
+.item{
+    width: 35%;
+    height: 300px;
+    transition: all 2s ease-in-out;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.item1{
+   background-color: rgb(242, 243, 244);
+   flex-shrink: 0;
+}
+.item2{
+   background-color: rgb(243, 243, 245);
+   flex-grow:200px;
+}
+.item3{
+   background-color: rgb(240, 239, 239);
+}
+.item4{
+   background-color: #f2f3f1;
+}
+.item5{
+    background-color: rgb(246, 245, 245);
+ }
+ .item6{
+    background-color: rgb(241, 241, 237);
+ }
+ .item7{
+    background-color: rgb(237, 238, 236);
+ }
+ .item8{
+    background-color: rgb(237, 241, 233);
+ }
+ 
+.item img{
+    height: 60%;
+    width: 100%;
+    
+}
+.item:hover{
+    transform: scale(1.1);
+    transition:all 2s ease-in-out;
+}

@@ -1,0 +1,49 @@
+.header{
+    width:"100%";
+    height:200px;
+    background-color: rgb(33, 46, 108);
+
+}
+body{
+    margin: 0;
+}
+#inst{
+    font-size:xx-large;
+    text-decoration: none;
+    color: #ee4609f2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-inline-start: 0cqmax;
+}
+
+/* This class represents the logo */
+.logo {
+    width: ""; /* Set the width of the logo */
+    height: 150px; /* Set the height of the logo */
+    background-image: url('images/download (1).jpg'); /* Specify the path to your logo image */
+    background-size:auto /* Make sure the logo image fits within the dimensions set */
+    background-repeat:no-repeat; /* Prevent the logo image from repeating */
+  }
+  .lo {
+    width: ""; /* Set the width of the logo */
+    height: 150px; /* Set the height of the logo */
+    background-image: url('images/download (2).jpg'); /* Specify the path to your logo image */
+    background-size:auto /* Make sure the logo image fits within the dimensions set */
+    background-repeat:no-repeat; /* Prevent the logo image from repeating */
+  }
+  .head{
+    width:"300%";
+    height:200px;
+    background-color: rgb(12, 219, 98);
+
+}
+body{
+    margin: 0;
+}
+#wp{
+    font-size:xx-large;
+    text-decoration: none;
+    color: #ee6109ec;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-inline-start: 0cqmax;
+}
+  

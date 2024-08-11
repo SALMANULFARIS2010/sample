@@ -1,0 +1,112 @@
+body{
+    margin:0px;
+    background-color: rgb(57, 9, 9);
+    box-sizing: border-box;
+}
+nav{
+    width:100%;
+    position: fixed;
+    display:flex;
+    z-index:9999;
+    background-color: rgb(80, 87, 171);
+    transition: 3s ease-in-out;
+    
+}
+.logo{
+   width:25%;
+
+}
+.logo img{
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.logo span{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 4px 2px 8px rgb(12, 1, 1);
+}
+.navs{
+    width:70%;
+    display: flex;
+    gap:12px;
+    padding-top: 28px;
+    justify-content: right;
+}
+.navs li{
+    list-style: none;
+    transform: rotate(0deg);
+    transition: 1s ease-in-out; 
+}
+.navs li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+  
+    
+}
+/* .navs li:hover{
+  transform: rotate(10deg);
+} */
+nav:hover{
+    background-color: rgb(72, 39, 138);
+}
+  
+.btn{
+    display: none;
+    width: 70px;
+    height: 70px;
+    margin-right: 13px;
+    margin-top: 14px;
+
+
+}
+
+
+.item{
+    margin-top: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+     justify-content: flex-start; 
+     /* align-items: center;  */
+    /* flex-wrap:wrap; */
+     align-content: space-evenly; 
+    /* flex-shrink: 2; */
+    gap: 1em;
+    /* flex-basis: 100px; */
+    /* flex-flow: column; */
+}
+.box{
+margin-top: 150px;
+}
+.box1{
+    height: 350px;
+    width: 150px;
+   background-color: rgb(36, 97, 103);
+   align-self: baseline;
+   flex-grow: 1;
+   /* order: 2; */
+}
+.box2{
+    height: 350px;
+    width: 150px;
+    background-color:  rgb(47, 97, 141);
+    flex: 1;
+    flex-basis: 1;
+    align-self:  baseline;
+    order:1;
+}
+.box3{
+    height: 350px;
+    width: 150px;
+    background-color:  rgb(40, 87, 120);
+}
+.box4{
+    height: 350px;
+    width: 150px;
+    background-color: rgb(39, 111, 115);
+  
+}

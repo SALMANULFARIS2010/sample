@@ -1,0 +1,29 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: blueviolet;
+    height:480px ;
+    padding-top:  30px;
+    background-image: url('images/images.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav
+{
+ width: 60%;  
+ height: 90px;
+ background-color: rgba(223, 0, 0, .5);
+ margin-left: auto;
+ margin-right:auto;
+ border-radius: 1px 12px 1px 12px;
+ box-shadow: 4px 8px 4px gray(45,40,40);
+
+
+
+}

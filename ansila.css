@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:content-box;
+}
+nav{
+    background-color: transparent;
+    box-shadow: 12px 4px 0px 1px;
+}
+header{
+    padding:20px;
+    width:240px;
+    height: 700px;
+    background-color: rgba(96, 86, 86, 0.269);
+}
+.head span{
+    display: inline-block;
+    color:rgb(9, 47, 47);
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+}
+     
+span img{
+    border-radius: 50%;
+    width: 25px;
+    height: 26px;
+    margin-left: 4px;
+   
+}
+#sp{
+    font-family: "Roboto Mono", monospace;
+    font-weight:100px;
+    font-size: medium;
+
+}
+
+.list{
+    list-style:none;
+   
+}
+.listitem a{
+    text-decoration: none;
+    color:rgb(75, 7, 233);
+    padding:10px;
+    display:flex;
+    margin: 20px;
+   
+}
+
+.list2{
+    list-style:none;
+   
+}
+.list2 .discount{
+    background-color:rgb(215, 215, 31);
+    padding: 10px;
+    margin-bottom: 10px;
+   
+}
+.list2 .week{
+    background-color:black;
+    padding: 10px;
+   
+}
+.list2 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200px;
+}
+.ic li{
+    list-style: none;
+    padding:10px;
+}
+.ic li a{
+    text-decoration: none;
+    color: rgb(7, 237, 99);
+    padding:10px;
+}
+
+.list a:hover{
+    transition:ease-in-out 1s;
+    transform: scaleX(-1) rotateY(90deg);
+}
+
+.list2 .discount:hover{
+    transition:ease-in-out 1s;
+    transform: scaleX(-1) rotateY(180deg);  
+
+}
+.list2 .week:hover{
+    transition:ease-in-out 1s;
+    transform: scaleX(-1) rotateY(180deg);  
+}
+.ic li:hover{
+    transition:ease-in-out 1s;
+    transform: skewX(10deg) translateX(50px);
+    transform-origin: bottom left;
+}

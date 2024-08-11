@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    background-image: url('images/premium_photo-1674480165860-f60bcf6aa2f7.avif');
+}
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background: #555;
+}
+input[type="password"] {
+    width: calc(100% - 30px); /* Subtracting the width of the eye icon */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.toggle-password {
+    width: 30px;
+    height: 30px;
+    background-image: url(''); /* Path to your eye icon */
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    float: right;
+}
+
+.password-container {
+    position: relative;
+}

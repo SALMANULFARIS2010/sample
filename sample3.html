@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function display(){
+          let name;
+          name=document.getElementById("nam");
+          name.style.backgroundColor="red";
+          let ptext=document.getElementById("res");
+          ptext.innerText=name.value;
+          console.log(name.value)
+    
+        }
+      </script>
+    
+    
+    
+      <hr>
+      <input type="text" id="nam"/>
+      <button onclick="display()">
+     Show
+    
+    </button>
+    <p id="res"></p>
+</body>
+</html>
